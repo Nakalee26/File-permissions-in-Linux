@@ -40,7 +40,7 @@
 </br>
 </br>
 <ol start="3">
-  <li><strong>Change file permissions:</strong></li>
+  <li><strong>Changing file permissions:</strong></li>
 </ol>
 
 The organization determined that other shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned. I determined project_k.txt must have the write access removed for other.
@@ -52,6 +52,16 @@ The following code demonstrates how I used Linux commands to do this:
 </div>
 
 </br>
-The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The chmod command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the project_k.txt file. After this, I used ls -la to review the updates I made.
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The `chmod` command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from `other` for the `project_k.txt` file. After this, I used the following command to review the updates I made:
+
+</br>
+</br>
+<ol start="4">
+  <li><strong>Changing file permissions on a hidden file:</strong></li>
+</ol>
+
+
+
+
 
 
