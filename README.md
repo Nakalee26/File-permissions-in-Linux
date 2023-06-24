@@ -12,4 +12,6 @@
 
 <p>The following code demonstrates how I accomplished this:</p>
 
-![Image Description](https://www.dropbox.com/s/ykn9y6i9q3lapyb/Picture1.jpg?dl=0)
+![Project Image](./images/project-image.jpg)
+
+
