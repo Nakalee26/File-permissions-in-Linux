@@ -1,7 +1,6 @@
 <h1>Project Description</h1>
 
-<p style="font-size: 15px;">The research team at my organization needs to update the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure.</br>See the attached current file permissions [Permissions](URL)
-</p>
+<p style="font-size: 15px;">The research team at my <b>hypothethical</b> organization needs to update the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure.</br></br>See the attached current file permissions of in the document file.</p>
 
 <h2>Tasks Performed</h2>
 
@@ -22,8 +21,6 @@
 <p style="font-size: 15px;">The first line of the screenshot displays the command I entered, and the other lines display the output. The code lists all contents of the projects directory. I used the `ls` command with the `-la` option to display a detailed listing of the file contents that also returned hidden files. The output of my command indicates that there is one directory named "drafts," one hidden file named ".project_x.txt," and five other project files. The 10-character string in the first column represents the permissions set on each file or directory.</p>
 
 </br>
-</br>
-
 <ol start="2">
   <li><strong><h3>Description of the permission strings:</h3></strong></li>
 </ol>
@@ -38,9 +35,8 @@
 </ul>
 
 <p style="font-size: 15px;">For example, the file permissions for `project_t.txt` are `-rw-rw-r--`. Since the first character is a hyphen (`-`), this indicates that `project_t.txt` is a file, not a directory. The second, fifth, and eighth characters are all `r`, which indicates that the user, group, and others all have read permissions. The third and sixth characters are `w`, which indicates that only the user and group have write permissions. No one has execute permissions for `project_t.txt`.</p>
+</br>
 
-</br>
-</br>
 <ol start="3">
   <li><strong><h3>Changing file permissions:</h3></strong></li>
 </ol>
@@ -75,7 +71,7 @@ The first two lines of the screenshot display the commands I entered, and the ot
 </br>
 </br>
 <ol start="5">
-  <li><strong>Changing directory permissions:</strong></li>
+  <li><strong><h3>Changing directory permissions:</h3></strong></li>
 </ol>
 
 
